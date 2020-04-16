@@ -17,7 +17,6 @@ public class App {
         maratonista1.participar(olimpiadaCoronaEdition);
 
         System.out.println("Soy " + maratonista1.nombre);
-        maratonista1.entrenar();
 
         while (maratonista1.energia > 0) {
             corrio = maratonista1.correr();
@@ -40,7 +39,6 @@ public class App {
         basquebolista1.edad = 34;
 
         System.out.println("Soy " + basquebolista1.nombre);
-        basquebolista1.entrenar();
 
         olimpiadaCoronaEdition.inscribir(basquebolista1);
 
