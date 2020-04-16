@@ -14,8 +14,6 @@ public class Deportista extends Persona {
         olimpiada.inscribir(this);
     }
 
-    public void entrenar(){
-        System.out.println("Estoy entrenando");
-    }
+    
 
 }
